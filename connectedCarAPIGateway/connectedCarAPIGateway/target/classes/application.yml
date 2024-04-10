@@ -1,0 +1,65 @@
+#server:
+#  port:  8090
+#spring:
+#  application:
+#    name:  gateway
+#
+#
+#
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: VEHICLE-SERVICE
+#          uri: http://localhost:8082
+#          predicates:
+#            - Path=/v1/api/vehicles/**
+#        - id: USER-SERVICE
+#          uri: http://localhost:8084
+#          predicates:
+#            - Path=/v1/api/users/**
+#
+#      discovery:
+#        locator:
+#          enabled: true
+
+#  security:
+#    oauth2:
+#      resource-server:
+#        jwt:
+#          jwk-set-uri: http://localhost:8080/realms/connected-cars/protocol/openid-connect/certs
+#          issuer-uri: http://localhost:8080/realms/connected-cars
+#
+#
+#keycloak:
+#  admin:
+#    server-url: http://localhost:8080/
+#    realm: connected-cars
+#    client-id: userClient
+#    client-secret: bjfVAS9Wgs1kMCqpQ4ETJbu88oRqRfUZ
+#
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8087/eureka
+
+#keycloak configuration
+#security:
+#  oauth2:
+#    client:
+#      provider:
+#        keycloak:
+#          issuer-uri: http://localhost:8080/realms/connected-cars
+#    resource:
+#      id: userClient
+#      token-info-uri: http://localhost:8080/realms/connected-cars/protocol/openid-connect/token/introspect
+#      user-info-uri: http://localhost:8080/realms/connected-cars/protocol/openid-connect/userinfo
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone:  http://localhost:8761/eureka

@@ -1,0 +1,13 @@
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\Keycloak_Security\CustomAccessDeniedHandler.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\Keycloak_Security\JWTAuthenticationEntrypoint.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\Keycloak_Security\JwtAuthConverter.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\response\ApiResponse.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\Keycloak_Security\SecurityConfigKeycloak.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\service\impl\KeycloakServiceImpl.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\controller\KeycloakController.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\ConnectedCarApiGatewayApplication.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\dto\Address.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\response\LoginResponse.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\dto\UserDto.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\dto\Roles.java
+C:\Users\ee212577\Desktop\New folder\connectedCarAPIGateway\connectedCarAPIGateway\src\main\java\com\example\connectedCarAPIGateway\service\KeycloakService.java
